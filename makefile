@@ -1,3 +1,4 @@
+.PHONY: clean
 main: main.o 1.o 2.o	
 	gcc -o main main.o 1.o 2.o
 main.o: main.cpp	
